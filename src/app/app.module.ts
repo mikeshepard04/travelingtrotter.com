@@ -6,12 +6,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { FullBioComponent } from './full-bio/full-bio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    FullBioComponent
   ],
   imports: [
     BrowserModule,

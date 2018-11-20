@@ -1,7 +1,16 @@
 .center-pane {
     margin: 0 auto;
+    display: flex;
 }
 
-.navbar {
-    background-color: #e6e6e6;
+.main-heading {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin: 10px;
+    text-align: center;
+
+    h2 {
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: bold;
+    }
+    
 }
