@@ -1,7 +1,7 @@
-# The Adventure Begins
+## The Adventure Begins
 ---
 
-## Where do I start?
+### Where do I start?
 
 Starting a blog seems impossible. Today there are so many out there and the topics stretch from cooking, traveling, exercise, and the list goes on. Now officially starting one I am asking myself: Where do I start? and What makes me interesting where people would care to read the words I am typing right now? 
 
@@ -18,3 +18,5 @@ Third, we own a house. Anyone who is looking to buy or has purchased a house und
 Fourth, I travel a lot for work. How do I get my workouts in while traveling? How do I deal with long layovers or getting stuck at the airport? Or completely missing your flight because you over slept? Yes, many of these things have happened to me and I’m here to share them with you.
 
 Those are just a few things that I think make me interesting. My next post will be about How to train in the winter for a Marathon. I will be running the Death Valley Marathon on February 2nd, 2019 (remember how I said I love to run and National Parks?). So let the training begin and look forward to sharing how I will be training in Iowa over the winter!
+
+`11/16/2018` / `Kathleen Shepard`
