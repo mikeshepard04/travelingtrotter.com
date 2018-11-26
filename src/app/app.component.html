@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container col-12 col-sm-10 col-md-9 col-lg-6">
         <a class="nav-item navbar-brand" routerLink="/home">
-            <i class="fas fa-running"></i>
             <strong>Shepard Shenanigans</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOptions" (click)="isCollapsed = !isCollapsed"
@@ -10,8 +9,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarOptions" [ngbCollapse]="isCollapsed">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" routerLink="/run" routerLinkActive="active" (click)="isCollapsed = true">Run</a>
-                <a class="nav-item nav-link" routerLink="/hike" routerLinkActive="active" (click)="isCollapsed = true">Hike</a>
+                <a class="nav-item nav-link" routerLink="/run" routerLinkActive="active" (click)="isCollapsed = true">
+                    <i class="fas fa-running"></i>
+                    Run
+                </a>
+                <a class="nav-item nav-link" routerLink="/hike" routerLinkActive="active" (click)="isCollapsed = true">
+                    <i class="fas fa-hiking"></i>
+                    Hike
+                </a>
             </div>
         </div>
     </div>
