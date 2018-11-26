@@ -4,11 +4,11 @@
             <i class="fas fa-running"></i>
             <strong>Shepard Shenanigans</strong>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" (click)="isCollapsed = !isCollapsed"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOptions" (click)="isCollapsed = !isCollapsed"
+            aria-controls="navbarOptions" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [ngbCollapse]="isCollapsed">
+        <div class="collapse navbar-collapse" id="navbarOptions" [ngbCollapse]="isCollapsed">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" routerLink="/run" routerLinkActive="active" (click)="isCollapsed = true">Run</a>
                 <a class="nav-item nav-link" routerLink="/hike" routerLinkActive="active" (click)="isCollapsed = true">Hike</a>
