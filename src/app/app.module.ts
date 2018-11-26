@@ -7,11 +7,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
 import { AppComponent } from './app.component';
 import { FullBioComponent } from './full-bio/full-bio.component';
+import { RunHomeComponent } from './run//run-home.component';
+import { HikeHomeComponent } from './hike/hike-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FullBioComponent
+    FullBioComponent,
+    RunHomeComponent,
+    HikeHomeComponent
   ],
   imports: [
     BrowserModule,

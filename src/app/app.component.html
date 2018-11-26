@@ -1,20 +1,29 @@
-<div class="navbar navbar-dark bg-dark shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container col-12 col-sm-10 col-md-9 col-lg-6">
-        <a class="navbar-brand">
+        <a class="nav-item navbar-brand" routerLink="/home">
             <i class="fas fa-running"></i>
             <strong>Shepard Shenanigans</strong>
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" (click)="isCollapsed = !isCollapsed"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [ngbCollapse]="isCollapsed">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" routerLink="/run" routerLinkActive="active" (click)="isCollapsed = true">Run</a>
+                <a class="nav-item nav-link" routerLink="/hike" routerLinkActive="active" (click)="isCollapsed = true">Hike</a>
+            </div>
+        </div>
     </div>
-</div>
+</nav>
 <div class="center-pane col-12 col-sm-10 col-md-9 col-lg-6">
     <main>
         <div class="main">
-            <full-bio></full-bio>
+            <router-outlet></router-outlet>
         </div>
     </main>
     <!-- <aside>
         
     </aside> -->
-</div>
 
-<!-- <router-outlet></router-outlet> -->
+</div>
