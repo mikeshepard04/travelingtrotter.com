@@ -5,7 +5,7 @@ import { RunHomeComponent } from './run/run-home.component'
 import { HikeHomeComponent } from './hike/hike-home.component'
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', component: FullBioComponent },
   { path: 'home', component: FullBioComponent },
   { path: 'run', component: RunHomeComponent },
   { path: 'hike', component: HikeHomeComponent }

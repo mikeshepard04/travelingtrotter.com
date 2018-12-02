@@ -18,7 +18,7 @@ import { HikeHomeComponent } from './hike/hike-home.component';
     HikeHomeComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'shenanigans-app'}),
     AppRoutingModule,
     NgbModule,
     HttpClientModule,

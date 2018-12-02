@@ -16,7 +16,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deploy to Pages
 `ng build --prod --base-href "https://mikeshepard04.github.io/shenanigans/"`
-`ngh --dir dist/shenanigans`
+`ngh --dir dist/browser`
 
 ## Running unit tests
 
