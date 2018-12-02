@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: '', component: FullBioComponent },
   { path: 'home', component: FullBioComponent },
   { path: 'run', component: RunHomeComponent },
-  { path: 'hike', component: HikeHomeComponent }
+  { path: 'hike', component: HikeHomeComponent },
+  { path: 'bio', component: FullBioComponent }
 ];
 
 @NgModule({

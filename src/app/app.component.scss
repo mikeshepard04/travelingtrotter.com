@@ -1,6 +1,24 @@
 .center-pane {
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
+}
+
+.center-pane > * {
+    flex: 1 100%;
+}
+
+@media all and (min-width: 800px) {
+    .main  {
+        flex: 10 0px !important;
+        order: 1; 
+        margin: 25px 25px 0 0;
+    }
+    .aside {
+        flex: 1 auto !important;
+        order: 2;
+        margin: 25px 0;
+    }
 }
 
 .navbar > .container {
@@ -16,3 +34,12 @@
         padding-right: 5px;
     }
 }
+
+.about-katie {
+    .main-photo {
+        max-width:100%;
+        border-radius: 10%;
+    }
+}
+
+
