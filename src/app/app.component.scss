@@ -8,16 +8,22 @@
     flex: 1 100%;
 }
 
+.main {
+    margin: 25px 25px 0 0;
+}
+
+.aside {
+    margin: 25px 0;
+}
+
 @media all and (min-width: 800px) {
     .main  {
         flex: 10 0px !important;
         order: 1; 
-        margin: 25px 25px 0 0;
     }
     .aside {
         flex: 1 auto !important;
         order: 2;
-        margin: 25px 0;
     }
 }
 
@@ -36,6 +42,8 @@
 }
 
 .about-katie {
+    // margin-top: 30px;
+
     .main-photo {
         max-width:100%;
         border-radius: 10%;

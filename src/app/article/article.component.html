@@ -1,0 +1,17 @@
+<div class="text-left article" [ngStyle]="{'height': articleHeight}">
+    <markdown [src]="articlePath"></markdown>
+</div>
+  <div *ngIf="articleHeight !== '100%'" class="fadeout"></div>
+
+  <!-- TODO: Fix button placement -->
+  <button style="margin-top: -100px;  margin-bottom: 15px"
+          *ngIf="articleHeight !== '100%'"
+          type="button"
+          class="btn button-default"
+          (click)="articleHeight = '100%'">Read More
+  </button>
+  <button style="margin-top: -30px; margin-bottom: 15px"
+          *ngIf="articleHeight === '100%'"
+          type="button" class="btn button-default"
+          (click)="articleHeight = '800px'">See Less
+  </button>

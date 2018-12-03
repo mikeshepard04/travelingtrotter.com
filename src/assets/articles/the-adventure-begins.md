@@ -1,3 +1,9 @@
+<img style="max-width:100%; max-height: 450px" src="./assets/images/Kansas-City-Marathon-Finish.jpg" alt="After running the Kansas City Marathon with Downtown KC in the background" />
+&nbsp;
+
+`11/16/2018` / `Kathleen Shepard`
+&nbsp;
+
 ## The Adventure Begins
 ---
 
@@ -18,5 +24,3 @@ Third, we own a house. Anyone who is looking to buy or has purchased a house und
 Fourth, I travel a lot for work. How do I get my workouts in while traveling? How do I deal with long layovers or getting stuck at the airport? Or completely missing your flight because you over slept? Yes, many of these things have happened to me and I’m here to share them with you.
 
 Those are just a few things that I think make me interesting. My next post will be about How to train in the winter for a Marathon. I will be running the Death Valley Marathon on February 2nd, 2019 (remember how I said I love to run and National Parks?). So let the training begin and look forward to sharing how I will be training in Iowa over the winter!
-
-`11/16/2018` / `Kathleen Shepard`
