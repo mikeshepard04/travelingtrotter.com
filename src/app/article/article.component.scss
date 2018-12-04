@@ -1,5 +1,20 @@
 .article {
+    margin-top: 30px;
     overflow: hidden;
+    height: 800px;
+}
+
+.expanded {
+    height: 100%;
+}
+
+.read-more {
+    margin-top: -100px;  
+    margin-bottom: 15px
+}
+
+.see-less {
+    margin-bottom: 5px;
 }
 
 .fadeout {

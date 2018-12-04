@@ -1,17 +1,14 @@
-<div class="text-left article" [ngStyle]="{'height': articleHeight}">
+<div class="text-left article" [ngClass]="{'expanded' : articleExpanded}">
     <markdown [src]="articlePath"></markdown>
 </div>
-  <div *ngIf="articleHeight !== '100%'" class="fadeout"></div>
-
-  <!-- TODO: Fix button placement -->
-  <button style="margin-top: -100px;  margin-bottom: 15px"
-          *ngIf="articleHeight !== '100%'"
+  <div *ngIf="!articleExpanded" class="fadeout"></div>
+  <button *ngIf="!articleExpanded"
           type="button"
-          class="btn btn-default"
-          (click)="articleHeight = '100%'">Read More
+          class="btn btn-default read-more"
+          (click)="articleExpanded = true">Read More
   </button>
-  <button style="margin-top: -30px; margin-bottom: 15px"
-          *ngIf="articleHeight === '100%'"
-          type="button" class="btn btn-default"
-          (click)="articleHeight = '800px'">See Less
+  <button *ngIf="articleExpanded"
+          type="button" 
+          class="btn btn-default see-less"
+          (click)="articleExpanded = false">See Less
   </button>
