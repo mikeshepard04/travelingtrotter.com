@@ -1,14 +1,11 @@
-<div class="text-left article" [ngClass]="{'expanded' : articleExpanded}">
-    <markdown [src]="articlePath"></markdown>
+<div 
+  [@openClose]="articleExpanded ? 'open' : 'closed'"
+  class="text-left article-body">
+  <markdown [src]="articlePath"></markdown>
 </div>
-  <div *ngIf="!articleExpanded" class="fadeout"></div>
-  <button *ngIf="!articleExpanded"
-          type="button"
-          class="btn btn-default read-more"
-          (click)="articleExpanded = true">Read More
-  </button>
-  <button *ngIf="articleExpanded"
-          type="button" 
-          class="btn btn-default see-less"
-          (click)="articleExpanded = false">See Less
-  </button>
+<div *ngIf="!articleExpanded" class="fadeout"></div>
+<div class="text-center button-wrapper" (click)="toggle()" [ngClass]="{ expanded: articleExpanded }"> 
+  <a *ngIf="!articleExpanded" class="read-more"><i class="fas fa-angle-down"></i></a>
+  <a *ngIf="articleExpanded" class="see-less"><i class="fas fa-angle-up"></i></a>
+</div>
+
