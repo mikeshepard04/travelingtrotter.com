@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./run-home.component.scss']
 })
 export class RunHomeComponent implements OnInit {
+  articlePaths = ['./assets/articles/four-frustrations-of-winter-running.md', './assets/articles/the-adventure-begins.md'];
 
   constructor() { }
 
