@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "shenanigans": {
+    "traveling-trotter": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "shenanigans:build"
+            "browserTarget": "traveling-trotter:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "shenanigans:build:production"
+              "browserTarget": "traveling-trotter:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "shenanigans:build"
+            "browserTarget": "traveling-trotter:build"
           }
         },
         "test": {
@@ -113,35 +113,7 @@
           }
         }
       }
-    },
-    "shenanigans-e2e": {
-      "root": "e2e/",
-      "projectType": "application",
-      "prefix": "",
-      "architect": {
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "shenanigans:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "shenanigans:serve:production"
-            }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
     }
   },
-  "defaultProject": "shenanigans"
+  "defaultProject": "traveling-trotter"
 }

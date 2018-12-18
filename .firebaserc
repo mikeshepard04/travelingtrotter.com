@@ -1,6 +1,6 @@
 {
   "projects": {
-    "shenanigans": "shepard-shenanigans",
-    "default": "shepard-shenanigans"
+    "default": "traveling-trotter",
+    "trotter": "traveling-trotter"
   }
 }

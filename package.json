@@ -1,11 +1,11 @@
 {
-  "name": "shenanigans",
+  "name": "traveling-trotter",
   "version": "0.0.0",
   "scripts": {
     "build:ssr": "npm run build:server-stuff && npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
-    "build:client-and-server-bundles": "ng build --prod && ng build --prod --project shenanigans --output-hashing=none",
-    "build:server-stuff": "ng run shenanigans:server",
+    "build:client-and-server-bundles": "ng build --prod && ng build --prod --project traveling-trotter --output-hashing=none",
+    "build:server-stuff": "ng run traveling-trotter:server",
     "webpack:server": "webpack --mode development --config webpack.server.config.js --progress --colors"
   },
   "private": true,

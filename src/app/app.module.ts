@@ -23,7 +23,7 @@ import { ArticleComponent } from './article/article.component';
     ArticleComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({appId: 'shenanigans-app'}),
+    BrowserModule.withServerTransition({appId: 'traveling-trotter-app'}),
     BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
