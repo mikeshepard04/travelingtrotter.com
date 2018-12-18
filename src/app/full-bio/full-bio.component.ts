@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./full-bio.component.scss']
 })
 export class FullBioComponent implements OnInit {
-
+  
   constructor(private meta: MetaService, private titleService: Title) { }
 
   ngOnInit() {

@@ -1,5 +1,24 @@
+.navbar {
+    opacity: .97;
+}
+
+.navbar > .container {
+    padding-left: 0;
+    padding-right: 0;
+    color: #fff;
+
+    a {
+        padding-right: 10px;
+    }
+
+    i {
+        padding-right: 5px;
+    }
+}
+
 .center-pane {
     margin: 0 auto;
+    padding-top: 60px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -24,20 +43,6 @@
     .aside {
         flex: 1 auto !important;
         order: 2;
-    }
-}
-
-.navbar > .container {
-    padding-left: 0;
-    padding-right: 0;
-    color: #fff;
-
-    a {
-        padding-right: 10px;
-    }
-
-    i {
-        padding-right: 5px;
     }
 }
 
