@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MetaService } from '../meta.service';
 
 @Component({
   selector: 'run-home',
@@ -8,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class RunHomeComponent implements OnInit {
   articlePaths = ['./assets/articles/four-frustrations-of-winter-running.md', './assets/articles/the-adventure-begins.md'];
 
-  constructor() { }
+  constructor(private meta: MetaService) { }
 
   ngOnInit() {
+    this.meta.generateTags({
+      title: 'Traveling Trotter: Running tips, my favorite runs, and more'
+    })
   }
 
 }

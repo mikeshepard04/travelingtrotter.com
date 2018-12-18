@@ -12,6 +12,7 @@ import { RunHomeComponent } from './run//run-home.component';
 import { HikeHomeComponent } from './hike/hike-home.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleComponent } from './article/article.component';
+import { MetaService } from './meta.service'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { ArticleComponent } from './article/article.component';
     HttpClientModule,
     MarkdownModule.forRoot()
   ],
-  providers: [],
+  providers: [MetaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

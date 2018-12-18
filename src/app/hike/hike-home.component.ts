@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MetaService } from '../meta.service';
 
 @Component({
   selector: 'hike-home',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HikeHomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private meta: MetaService) { }
 
   ngOnInit() {
+    this.meta.generateTags({
+      title: 'Traveling Trotter: My favorite hikes, parks, and campsites'
+    })
   }
 
 }

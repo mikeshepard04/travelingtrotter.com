@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MetaService } from '../meta.service';
 
 @Component({
   selector: 'full-bio',
@@ -7,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FullBioComponent implements OnInit {
   
-  constructor() { }
+  constructor(private meta: MetaService) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.meta.generateTags({
+      title: 'Traveling Trotter: A little about me'
+    })
+  }
 
 }

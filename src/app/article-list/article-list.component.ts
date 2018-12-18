@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { MetaService } from '../meta.service';
 
 @Component({
   selector: 'app-article-list',
@@ -8,8 +9,12 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 export class ArticleListComponent implements OnInit {
   articlePaths = ['./assets/articles/four-frustrations-of-winter-running.md', './assets/articles/the-adventure-begins.md'];
 
-  constructor() { }
+  constructor(private meta: MetaService) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.meta.generateTags({
+      title: 'Traveling Trotter: Full list of articles I have written'
+    })
+  }
 
 }
