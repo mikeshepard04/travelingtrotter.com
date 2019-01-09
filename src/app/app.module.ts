@@ -24,7 +24,7 @@ import { MetaService } from './meta.service'
     ArticleComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({appId: 'traveling-trotter-app'}),
+    BrowserModule.withServerTransition({appId: 'traveling-trotter'}),
     BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
