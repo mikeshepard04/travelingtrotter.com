@@ -6,7 +6,8 @@
     "serve:ssr": "node dist/server.js",
     "build:client-and-server-bundles": "ng build --prod && ng build --prod --project traveling-trotter --output-hashing=none",
     "build:server-stuff": "ng run traveling-trotter:server",
-    "webpack:server": "webpack --mode development --config webpack.server.config.js --progress --colors"
+    "webpack:server": "webpack --mode development --config webpack.server.config.js --progress --colors",
+    "build:prerender": "ng build --prod && ng run traveling-trotter:prerender --output-hashing=none && ts-node prerender.ts"
   },
   "private": true,
   "dependencies": {
