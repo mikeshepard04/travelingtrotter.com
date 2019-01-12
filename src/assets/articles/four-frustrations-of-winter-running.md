@@ -1,4 +1,4 @@
-<img style="max-width:100%; max-height: 450px" src="./assets/images/run/Ames-run.jpg" alt="On a long run through Ames, Iowa and Ada Hayden Heritage Park" />
+<img style="max-width:100%; max-height: 450px" src="./assets/images/run/winter-run.jpg" alt="On a long run through West Des Moines, Iowa and Raccoon River Park" />
 &nbsp;
 
 `11/26/2018` / `Kathleen Shepard`
