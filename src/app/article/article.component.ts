@@ -11,7 +11,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         'max-height': '20000px'
       })),
       state('closed', style({
-        height: '800px'
+        height: '850px'
       })),
       transition('open => closed', [
         animate('0.5s')

@@ -1,5 +1,4 @@
 <img style="max-width:100%; max-height: 450px" src="./assets/images/run/Kansas-City-Marathon-Finish.jpg" alt="After running the Kansas City Marathon with Downtown KC in the background" />
-&nbsp;
 
 `11/16/2018` / `Kathleen Shepard`
 &nbsp;

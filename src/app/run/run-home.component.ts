@@ -8,7 +8,9 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./run-home.component.scss']
 })
 export class RunHomeComponent implements OnInit {
-  articlePaths = ['./assets/articles/four-frustrations-of-winter-running.md', './assets/articles/the-adventure-begins.md'];
+  articlePaths = ['./assets/articles/gear-obsession.md',
+                  './assets/articles/four-frustrations-of-winter-running.md', 
+                  './assets/articles/the-adventure-begins.md'];
 
   constructor(private meta: MetaService, private titleService: Title) { }
 
