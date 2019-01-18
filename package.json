@@ -1,6 +1,6 @@
 {
   "name": "traveling-trotter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "build:ssr": "npm run build:server-stuff && npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
