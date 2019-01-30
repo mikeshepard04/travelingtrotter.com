@@ -7,7 +7,6 @@ import { ArticleListComponent } from './article-list/article-list.component'
 
 const routes: Routes = [
   { path: '', component: ArticleListComponent },
-  { path: 'home', component: ArticleListComponent },
   { path: 'run', component: RunHomeComponent },
   { path: 'hike', component: HikeHomeComponent },
   { path: 'bio', component: FullBioComponent }
