@@ -1,7 +1,6 @@
 <img style="max-width:100%; max-height: 450px" src="./assets/images/run/winter-run.jpg" alt="On a long run through West Des Moines, Iowa and Raccoon River Park" />
 
-`1/13/2019` / `Kathleen Shepard`
-&nbsp;
+<div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2019-01-13">January 13, 2019</time> / Kathleen Shepard</div>
 
 ## My Running Gear Obsession.
 

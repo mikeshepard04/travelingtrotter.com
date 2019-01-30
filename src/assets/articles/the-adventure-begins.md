@@ -1,9 +1,8 @@
 <img style="max-width:100%; max-height: 450px" src="./assets/images/run/Kansas-City-Marathon-Finish.jpg" alt="After running the Kansas City Marathon with Downtown KC in the background" />
 
-`11/16/2018` / `Kathleen Shepard`
-&nbsp;
+<div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2018-11-16">November 16, 2018</time> / Kathleen Shepard</div>
 
-## The Adventure Begins
+# The Adventure Begins
 ---
 
 #### Where do I start?
