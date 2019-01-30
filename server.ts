@@ -56,7 +56,6 @@ const index = fs
   .toString();
 
 const paths = [
-  '/home',
   '/run',
   '/hike',
   '/bio'

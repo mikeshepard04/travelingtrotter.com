@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2019-01-13">January 13, 2019</time> / Kathleen Shepard</div>
 
-## My Running Gear Obsession.
+# My Running Gear Obsession.
 
 So let me start with saying – I am cheap. I don’t like paying full price for things and I don’t like spending crazy amounts of money on items that aren’t essential. Now that I have been running seriously for 3 years, things have changed. I used to run with $30 headphones, now I am have upgraded to $100 ones. I would find my running gear at TJ Maxx or on clearance at Target and Old Navy, now I have spent $80 on a shirt to run in the winter. Anyone who runs marathons knows those are not cheap. I am talking $200 for a race where in the end you get a shirt, medal, banana and the greatest feeling in the world. What I am trying to say is I am cheap, but when it comes to running an my gear, I look at all my options and pick what will stick with me for the long run.
 

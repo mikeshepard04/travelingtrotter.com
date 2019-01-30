@@ -15,7 +15,7 @@ export class ArticleListComponent implements OnInit {
   constructor(private meta: MetaService, private titleService: Title) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Traveling Trotter');
+    this.titleService.setTitle('Traveling Trotter: Enjoying Life One Mile at a Time');
     this.meta.generateTags({
       title: 'Traveling Trotter: Full list of articles I have written'
     })
