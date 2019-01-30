@@ -29,7 +29,7 @@ My first few long runs haven’t been ideal. But really, long runs aren’t for 
 
 Lessons learned: Don’t only head outside for your long runs, make sure to schedule shorter runs or track workouts. This should help you see some improvement and might even help you get used to the cold.
 
- #### 4. Winter Running Clothes.
+#### 4. Winter Running Clothes.
 
 This might seem repetitive, but as I have been researching/looking for cold running gear they are both expensive and I question how warm they actually are. As I have already identified I am a baby when it comes to cold weather, so if I am going to spend money on something it better be up to my warmth standards. I have to say, reviewing these items are time consuming and irritating. One thing I have been looking for is a full zip jacket that would be warm, wind and rain repellent as well as reflective. It would also be great if it was reasonably priced. I mean, I am not the only runner who is looking for this piece, right? I looked online and that's when it hit me. I’ll never know until I touch the jacket or try it on if it is the right one. Clothes are so subjective and when buying a jacket that is more than $50, I know I won’t be able to make a decision until I have it in my hands.
 

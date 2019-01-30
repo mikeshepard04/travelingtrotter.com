@@ -6,7 +6,7 @@
 ## The Adventure Begins
 ---
 
-### Where do I start?
+#### Where do I start?
 
 Starting a blog seems impossible. Today there are so many out there and the topics stretch from cooking, traveling, exercise, and the list goes on. Now officially starting one I am asking myself: Where do I start? and What makes me interesting where people would care to read the words I am typing right now? 
 
