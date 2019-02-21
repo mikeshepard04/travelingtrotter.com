@@ -12,7 +12,8 @@ import { RunHomeComponent } from './run//run-home.component';
 import { HikeHomeComponent } from './hike/hike-home.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleComponent } from './article/article.component';
-import { MetaService } from './meta.service'
+import { MetaService } from './meta.service';
+import { ArticlePageComponent } from './article-page/article-page.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MetaService } from './meta.service'
     RunHomeComponent,
     HikeHomeComponent,
     ArticleListComponent,
-    ArticleComponent
+    ArticleComponent,
+    ArticlePageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'traveling-trotter'}),

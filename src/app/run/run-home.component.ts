@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http'; 
 import { MetaService } from '../meta.service';
 import { Title } from '@angular/platform-browser';
 
@@ -8,13 +9,17 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./run-home.component.scss']
 })
 export class RunHomeComponent implements OnInit {
-  articlePaths = ['./assets/articles/gear-obsession.md',
-                  './assets/articles/four-frustrations-of-winter-running.md', 
-                  './assets/articles/the-adventure-begins.md'];
+  articles = [];
 
-  constructor(private meta: MetaService, private titleService: Title) { }
+  constructor(private http: HttpClient, private meta: MetaService, private titleService: Title) { }
 
   ngOnInit() {
+    this.http.get('./assets/article-directory.json').subscribe(data => {
+      data['articles'].run.forEach(article => {
+        this.articles.push(article);
+      });
+    });
+
     let title = 'Traveling Trotter: Running tips, my favorite runs, and more'
 
     this.titleService.setTitle(title);

@@ -1,4 +1,5 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { HttpClient } from '@angular/common/http'; 
 import { MetaService } from '../meta.service';
 import { Title } from '@angular/platform-browser';
 
@@ -8,13 +9,20 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./article-list.component.scss']
 })
 export class ArticleListComponent implements OnInit {
-  articlePaths = ['./assets/articles/gear-obsession.md',
-                  './assets/articles/four-frustrations-of-winter-running.md', 
-                  './assets/articles/the-adventure-begins.md'];
+  articles = [];
 
-  constructor(private meta: MetaService, private titleService: Title) { }
+  constructor(private http: HttpClient, private meta: MetaService, private titleService: Title) { }
 
   ngOnInit() {
+    this.http.get('./assets/article-directory.json').subscribe(data => {
+      data['articles'].run.forEach(article => {
+        this.articles.push(article);
+      });
+      data['articles'].hike.forEach(article => {
+        this.articles.push(article);
+      });
+    });
+
     this.titleService.setTitle('Traveling Trotter: Enjoying Life One Mile at a Time');
     this.meta.generateTags({
       title: 'Traveling Trotter: Full list of articles I have written'

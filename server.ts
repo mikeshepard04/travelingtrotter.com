@@ -58,7 +58,9 @@ const index = fs
 const paths = [
   '/run',
   '/hike',
-  '/bio'
+  '/bio',
+  '/four-frustrations-of-winter-running',
+  '/gear-obsession'
 ];
 
 // Start up the Node server

@@ -1,4 +1,6 @@
-<img style="max-width:100%; max-height: 450px" src="./assets/images/run/Ames-run.jpg" alt="On a long run through Ames, Iowa and Ada Hayden Park" />
+<a href="four-frustrations-of-winter-running">
+    <img style="max-width:100%; max-height: 450px" src="./assets/images/run/Ames-run.jpg" alt="On a long run through Ames, Iowa and Ada Hayden Park" />
+</a>
 
 <div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2018-11-11">November 11, 2018</time> / Kathleen Shepard</div>
 
