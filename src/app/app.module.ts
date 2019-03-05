@@ -13,7 +13,8 @@ import { HikeHomeComponent } from './hike/hike-home.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleComponent } from './article/article.component';
 import { MetaService } from './meta.service';
-import { ArticlePageComponent } from './article-page/article-page.component'
+import { ArticlePageComponent } from './article-page/article-page.component';
+import { ArticleHeaderComponent } from './article-header/article-header.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ArticlePageComponent } from './article-page/article-page.component'
     HikeHomeComponent,
     ArticleListComponent,
     ArticleComponent,
-    ArticlePageComponent
+    ArticlePageComponent,
+    ArticleHeaderComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'traveling-trotter'}),

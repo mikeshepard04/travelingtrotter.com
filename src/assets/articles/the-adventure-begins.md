@@ -1,12 +1,3 @@
-<a href="bio">
-    <img style="max-width:100%; max-height: 450px" src="./assets/images/run/Kansas-City-Marathon-Finish.jpg" alt="After running the Kansas City Marathon with Downtown KC in the background" />
-</a>
-
-<div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2018-11-16">November 16, 2018</time> / Kathleen Shepard</div>
-
-# The Adventure Begins
----
-
 #### Where do I start?
 
 Starting a blog seems impossible. Today there are so many out there and the topics stretch from cooking, traveling, exercise, and the list goes on. Now officially starting one I am asking myself: Where do I start? and What makes me interesting where people would care to read the words I am typing right now? 

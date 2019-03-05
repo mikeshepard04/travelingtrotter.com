@@ -1,11 +1,3 @@
-<a href="four-frustrations-of-winter-running">
-    <img style="max-width:100%; max-height: 450px" src="./assets/images/run/Ames-run.jpg" alt="On a long run through Ames, Iowa and Ada Hayden Park" />
-</a>
-
-<div style="margin: 10px 0; color: #8c8c8c; font-size: 15px"><time itemprop="datePublished" datetime="2018-11-11">November 11, 2018</time> / Kathleen Shepard</div>
-
-# The 4 Frustrations of Winter Running
-
 It's the end of November and there is snow on the ground. I just completed my 14 mile run yesterday and looking forward to ramping up to 16 miles next week. As I am excited to try something new I am also regretting my decision to run a winter marathon. Mainly because I hate the cold. That being said, this week I am going to list 4 things that have frustrated me so far during my winter marathon training.
 
 ### 1. What to wear.

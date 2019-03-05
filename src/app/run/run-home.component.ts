@@ -15,8 +15,10 @@ export class RunHomeComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('./assets/article-directory.json').subscribe(data => {
-      data['articles'].run.forEach(article => {
-        this.articles.push(article);
+      data['articles'].forEach(article => {
+        if (article['type'] === 'run' ) {
+          this.articles.push(article);
+        }
       });
     });
 

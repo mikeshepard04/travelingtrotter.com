@@ -15,10 +15,7 @@ export class ArticleListComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('./assets/article-directory.json').subscribe(data => {
-      data['articles'].run.forEach(article => {
-        this.articles.push(article);
-      });
-      data['articles'].hike.forEach(article => {
+      data['articles'].forEach(article => {
         this.articles.push(article);
       });
     });

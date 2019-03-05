@@ -1,3 +1,4 @@
 <div *ngIf="article" class="text-left">
+  <article-header [article]="article"></article-header>
   <markdown [src]="article.path"></markdown>
 </div>

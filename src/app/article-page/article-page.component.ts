@@ -19,19 +19,11 @@ export class ArticlePageComponent implements OnInit {
 
     if (articleName) {
       this.http.get('./assets/article-directory.json').subscribe(data => {
-        data['articles'].run.forEach(article => {
+        data['articles'].forEach(article => {
           if (article.code === articleName) {
             this.article = article;
           }
         });
-
-        if (!this.article) {
-          data['articles'].hike.forEach(article => {
-            if (article.code === articleName) {
-              this.article = article;
-            }
-          });
-        }
 
         this.titleService.setTitle(`Traveling Trotter: ${this.article['name']}`);
         this.meta.generateTags({
