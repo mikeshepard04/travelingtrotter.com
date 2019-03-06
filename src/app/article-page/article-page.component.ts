@@ -10,7 +10,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./article-page.component.scss']
 })
 export class ArticlePageComponent implements OnInit {
-  article: object;
+  article: any;
 
   constructor(private route: ActivatedRoute, private http: HttpClient, private meta: MetaService, private titleService: Title) { }
 
@@ -18,16 +18,16 @@ export class ArticlePageComponent implements OnInit {
     let articleName = this.route.params['value'].article;
 
     if (articleName) {
-      this.http.get('./assets/article-directory.json').subscribe(data => {
-        data['articles'].forEach(article => {
+      this.http.get('./assets/article-directory.json').subscribe((data: any) => {
+        data.articles.forEach(article => {
           if (article.code === articleName) {
             this.article = article;
           }
         });
 
-        this.titleService.setTitle(`Traveling Trotter: ${this.article['name']}`);
+        this.titleService.setTitle(`Traveling Trotter: ${this.article.name}`);
         this.meta.generateTags({
-          title: `Traveling Trotter: ${this.article['name']}`
+          title: `Traveling Trotter: ${this.article.name}`
         })
       });
     }    

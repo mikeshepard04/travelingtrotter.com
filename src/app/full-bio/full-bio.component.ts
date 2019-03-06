@@ -9,13 +9,13 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./full-bio.component.scss']
 })
 export class FullBioComponent implements OnInit {
-  article: object;
+  article: any;
   
   constructor(private meta: MetaService, private titleService: Title, private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get('./assets/article-directory.json').subscribe(data => {
-      data['articles'].forEach(article => {
+    this.http.get('./assets/article-directory.json').subscribe((data: any) => {
+      data.articles.forEach(article => {
         if (article.code === 'the-adventure-begins') {
           this.article = article;
         }

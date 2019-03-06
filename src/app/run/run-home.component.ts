@@ -14,9 +14,9 @@ export class RunHomeComponent implements OnInit {
   constructor(private http: HttpClient, private meta: MetaService, private titleService: Title) { }
 
   ngOnInit() {
-    this.http.get('./assets/article-directory.json').subscribe(data => {
-      data['articles'].forEach(article => {
-        if (article['type'] === 'run' ) {
+    this.http.get('./assets/article-directory.json').subscribe((data: any) => {
+      data.articles.forEach(article => {
+        if (article.type === 'run' ) {
           this.articles.push(article);
         }
       });

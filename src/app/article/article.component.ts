@@ -23,7 +23,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   ]
 })
 export class ArticleComponent implements OnInit {
-  @Input() article: object;
+  @Input() article: any;
 
   articleExpanded = false;
 
