@@ -16,6 +16,15 @@
     }
 }
 
+.nav-item {
+    transition-duration: 0.2s;
+    transform: perspective(1px) translateZ(0);
+}
+
+.nav-item:not(.navbar-brand):hover {
+    transform: scale(1.05);
+}
+
 @media(min-width: 1100px) {
     .nav-item {
         font-size: 18px;
@@ -70,8 +79,11 @@
 
 .fab {
     color: #212529;
+    transition-duration: 0.2s;
+    transform: perspective(1px) translateZ(0);
 }
 
 .fab:hover {
     color: #7082a9;
+    transform: scale(1.1);
 }
