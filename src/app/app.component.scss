@@ -1,3 +1,52 @@
+.grid-header {
+    grid-area: header;
+}
+
+.grid-main {
+    grid-area: main;
+    padding: 0 5px 10px 5px;
+}
+.grid-sidebar {
+    grid-area: sidebar;
+    padding: 0 5px 10px 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 35% 15% 25%;
+    grid-template-rows: 80px auto;
+    grid-template-areas: 
+        "header header header header"
+        ". main sidebar .";
+}
+
+@media(max-width: 1500px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 15% 50% 20% 15%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 5% 90% 5%;
+        grid-template-areas: 
+        "header header header"
+        ". main ."
+        ". sidebar .";
+    }
+
+    .about-katie {
+        text-align: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 2% 96% 2%;
+    }
+}
+
 .navbar {
     opacity: .97;
 }
