@@ -28,7 +28,7 @@ import { ArticleHeaderComponent } from './article-header/article-header.componen
     ArticleHeaderComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({appId: 'traveling-trotter'}),
+    BrowserModule.withServerTransition({ appId: 'traveling-trotter' }),
     BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,

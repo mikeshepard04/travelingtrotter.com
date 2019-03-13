@@ -1,5 +1,5 @@
-import { Component, OnInit} from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { MetaService } from '../meta.service';
 import { Title } from '@angular/platform-browser';
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
+import { HttpClient } from '@angular/common/http';
 import { MetaService } from '../meta.service';
 import { Title } from '@angular/platform-browser';
 
@@ -16,7 +16,7 @@ export class RunHomeComponent implements OnInit {
   ngOnInit() {
     this.http.get('./assets/article-directory.json').subscribe((data: any) => {
       data.articles.forEach(article => {
-        if (article.type === 'run' ) {
+        if (article.type === 'run') {
           this.articles.push(article);
         }
       });

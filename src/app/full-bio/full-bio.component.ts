@@ -10,7 +10,7 @@ import { Title } from '@angular/platform-browser';
 })
 export class FullBioComponent implements OnInit {
   article: any;
-  
+
   constructor(private meta: MetaService, private titleService: Title, private http: HttpClient) { }
 
   ngOnInit() {

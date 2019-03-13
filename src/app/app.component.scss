@@ -4,8 +4,10 @@
 
 .grid-main {
     grid-area: main;
+    min-height: 100vh;
     padding: 0 5px 10px 5px;
 }
+
 .grid-sidebar {
     grid-area: sidebar;
     padding: 0 5px 10px 5px;

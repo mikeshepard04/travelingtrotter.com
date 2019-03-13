@@ -30,7 +30,7 @@ export class ArticlePageComponent implements OnInit {
           title: `Traveling Trotter: ${this.article.name}`
         })
       });
-    }    
+    }
   }
 
 }
