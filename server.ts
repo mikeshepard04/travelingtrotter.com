@@ -58,7 +58,7 @@ const index = fs
 const paths = [
   '/run',
   '/hike',
-  '/bio',
+  '/the-adventure-begins',
   '/four-frustrations-of-winter-running',
   '/gear-obsession'
 ];

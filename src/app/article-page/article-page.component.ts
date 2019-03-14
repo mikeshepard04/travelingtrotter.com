@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-article-page',
   templateUrl: './article-page.component.html',
-  styleUrls: ['./article-page.component.scss']
+  styleUrls: ['./article-page.component.scss', '../fade-animation.scss']
 })
 export class ArticlePageComponent implements OnInit {
   article: any;
