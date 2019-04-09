@@ -14,6 +14,8 @@ import { ArticleComponent } from './article/article.component';
 import { MetaService } from './meta.service';
 import { ArticlePageComponent } from './article-page/article-page.component';
 import { ArticleHeaderComponent } from './article-header/article-header.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { ArticleHeaderComponent } from './article-header/article-header.componen
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    MarkdownModule.forRoot()
+    MarkdownModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [MetaService],
   bootstrap: [AppComponent]
