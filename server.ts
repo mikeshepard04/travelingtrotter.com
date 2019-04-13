@@ -60,7 +60,8 @@ const paths = [
   '/hike',
   '/the-adventure-begins',
   '/four-frustrations-of-winter-running',
-  '/gear-obsession'
+  '/gear-obsession',
+  '/death-valley-marathon'
 ];
 
 // Start up the Node server
