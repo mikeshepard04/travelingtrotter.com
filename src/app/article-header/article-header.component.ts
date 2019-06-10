@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, Inject, PLATFORM_ID } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
-import { isPlatformBrowser } from '@angular/common';
+import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'article-header',
