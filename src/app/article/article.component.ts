@@ -4,7 +4,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 @Component({
   selector: 'article',
   templateUrl: './article.component.html',
-  styleUrls: ['./article.component.scss', '../fade-animation.scss'],
+  styleUrls: ['./article.component.scss'],
   animations: [
     trigger('openClose', [
       state('open', style({
