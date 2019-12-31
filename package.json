@@ -44,7 +44,6 @@
     "karma": "~4.4.1",
     "karma-chrome-launcher": "~3.1.0",
     "karma-jasmine": "~2.0.1",
-    "protractor": "~5.4.2",
     "ts-node": "~8.5.4",
     "tslint": "~5.20.1",
     "typescript": "3.5.3",
